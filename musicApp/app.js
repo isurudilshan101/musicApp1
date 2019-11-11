@@ -5,10 +5,10 @@ const pads=document.querySelectorAll(".pads div");
 
 
 //lets get going with the sound here
-console.log(sounds);
 
-pads.forEach(pad => {
-    pad.addEventListener("click",function(){sounds[4]
+
+pads.forEach((pad,index) => {
+    pad.addEventListener("click",function(){sounds[index].play();
     
      });
   });
