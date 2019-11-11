@@ -29,15 +29,17 @@ header p
     font-size: 20px;
 }
 
-.pad
+.pads
 {
     background: lightblue;
     width:100%;
+    display: flex;
 }
-.pad > div
+.pads > div
 {
     width: 100px;
     height: 100px;
+    flex:1;
 }
 
 .pad1
