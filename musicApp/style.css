@@ -29,10 +29,45 @@ header p
     font-size: 20px;
 }
 
-.pads
+.pad
 {
     background: lightblue;
     width:100%;
+}
+.pad > div
+{
+    width: 100px;
+    height: 100px;
+}
+
+.pad1
+{
+    background: #60d394;
+}
+
+.pad2
+{
+    background: #d36060;
+}
+
+.pad3
+{
+    background: #c060d3;
+}
+
+.pad4
+{
+    background: #d3d160;
+}
+
+.pad5
+{
+    background: #60d394;
+}
+
+.pad6
+{
+    background: #60b2d3;
 }
 
 
